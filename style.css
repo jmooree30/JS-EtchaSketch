@@ -1,0 +1,30 @@
+.container {
+   background-color: white;
+   border: 5px solid black;
+   border-radius: 5px;
+   width: 720px;
+   height: 720px;
+   margin: 20px auto;
+}
+
+.square {
+   border: 5px solid black;
+   height: 45px;
+   width: 45px;
+   float: left;
+   
+}
+
+.buttons li{
+list-style-type:none;
+text-decoration:none;
+position:inline;
+display:inline-block;
+border:none;
+text-align:center;
+margin-left:365px;
+}
+
+.clicked {
+  background-color: yellow;
+}
