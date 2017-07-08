@@ -7,6 +7,7 @@ function gridLife() {
   $("<div class='square'></div>").appendTo(".container");
 }
 }
+ $('.square').css({'width': sizeofsquare, 'height': sizeofsquare});
 }
 
 $(document).ready(function(){
@@ -15,5 +16,23 @@ $(document).ready(function(){
         $(this).css('background-color', 'black');
       });
 });
+
+$(document).ready(function(){
+$('.buttons').click(function(){
+  $('.container').empty();
+gridLife();
+  row = prompt ('How many sqaures would you like?');
+  sizeofsquare = 720/row;
+$('.container').on('mouseenter', '.square', function () {
+    $(this).css('background-color', 'black');
+
+});
+});
+});
+
+
+
+
+
 
 

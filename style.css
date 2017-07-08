@@ -1,5 +1,9 @@
+body{
+background-image:url("paint-splatter-2.png");
+}
+
 .container {
-   background-color: white;
+   background-image:url("easy.png");
    border: 5px solid black;
    border-radius: 5px;
    width: 720px;
@@ -8,7 +12,6 @@
 }
 
 .square {
-   border: 5px solid black;
    height: 45px;
    width: 45px;
    float: left;
@@ -18,13 +21,15 @@
 .buttons li{
 list-style-type:none;
 text-decoration:none;
-position:inline;
-display:inline-block;
 border:none;
 text-align:center;
-margin-left:365px;
 }
 
 .clicked {
   background-color: yellow;
+}
+
+.selections {
+text-align:center;
+margin-left:50px;
 }
